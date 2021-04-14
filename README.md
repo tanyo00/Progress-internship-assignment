@@ -8,7 +8,7 @@
 
 # General Purpose Of The Application
 
-The general purpose of the application is to fetch products (JSON data) from a server or local JSON file and display them.
+The general purposes of the application are to fetch products (JSON data) from a server or local JSON file and display them.
 The application also has the ability to filter the data and disply only products which are in stock or out of stock.
 Our app is also mobile-friendly.
 

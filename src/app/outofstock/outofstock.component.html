@@ -1,0 +1,12 @@
+
+<div class="container-products">
+    <h1>Out of stock products</h1>
+    <div *ngFor="let product of outOfStockProducts" class="product">
+      <h1 class="product-header">{{product.ProductName}}</h1>
+      <h2>Product id: {{product.ProductID}}</h2>
+      <h2>Unit Price: {{product.UnitPrice}}</h2>
+      <h2>Units In Stock: {{product.UnitsInStock}}</h2>
+      <img src="{{product.image}}" alt="image" /> 
+    </div>
+  </div>
+  

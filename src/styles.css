@@ -1,1 +1,122 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-products .product {
+    animation-name: animateCards;
+    animation-duration: 1s;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px  gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+
+.container-products h1 {
+    animation-name: animateHeader;
+    animation-duration: 1s;
+    font-size: 40px;
+    width: 95%;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+.container-products h2 {
+    outline: none;
+    font-size: 19px;
+    background: #00308F;
+    color: white;
+    padding: 10px;
+    width: 55%;
+    text-align: center;
+    cursor: pointer;
+}
+.container-products h2:hover {
+    border-radius: 20px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 6px gray;
+    transition-duration: 0.5s;
+  }
+
+.container-products .product img {
+width: 30%;
+}
+
+@media screen and (max-width: 725px){
+    .container-products {
+        width: 100%;
+    }
+    .container-products .product {
+        width: 80%;
+    }
+    .container-products .product img {
+        width: 70%;
+    }
+    .container-products h2 {
+        width: 70%;
+    }
+    .container-products h2:hover {
+        width: 70%;
+    }
+    .container-products h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .container-products h2 {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .container-products h2:hover {
+        width: 85%;
+    }
+}
+@keyframes animateCards {
+    from {
+        opacity: 0.2;
+        margin-left: 200px;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes animateHeader {
+    from {
+        opacity: 0.2;
+        margin-right: 200px;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

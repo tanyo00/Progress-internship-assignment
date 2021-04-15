@@ -4,70 +4,80 @@
         "ProductName": "Chai",
         "UnitPrice": 18,
         "UnitsInStock": 39,
-        "image":"../assets/images/chai.png"
+        "image":"../assets/images/chai.png",
+        "DeliveryOn": "1996-09-19T21:00:00.000Z"
     },
     {
         "ProductID": 2,
         "ProductName": "Chang",
         "UnitPrice": 19,
         "UnitsInStock": 17,
-        "image":"../assets/images/chang.png"
+        "image":"../assets/images/chang.png",
+        "DeliveryOn": "1996-08-11T21:00:00.000Z"
     },
     {
         "ProductID": 3,
         "ProductName": "Aniseed Syrup",
         "UnitPrice": 10,
         "UnitsInStock": 0,
-        "image": "../assets/images/aniseedsyrup.png"
+        "image": "../assets/images/aniseedsyrup.png",
+        "DeliveryOn": "1996-09-25T21:00:00.000Z"
     },
     {
         "ProductID": 4,
         "ProductName": "Chef Anton's Cajun Seasoning",
         "UnitPrice": 22,
         "UnitsInStock": 53,
-        "image": "../assets/images/cajunseasoning.png"
+        "image": "../assets/images/cajunseasoning.png",
+        "DeliveryOn": "1996-10-18T21:00:00.000Z"
     },
     {
         "ProductID": 5,
         "ProductName": "Chef Anton's Gumbo Mix",
         "UnitPrice": 21.35,
         "UnitsInStock": 0,
-        "image":"../assets/images/gumbomix.png"
+        "image":"../assets/images/gumbomix.png",
+        "DeliveryOn": "1996-08-16T21:00:00.000Z"
     },
     {
         "ProductID": 6,
         "ProductName": "Grandma's Boysenberry Spread",
         "UnitPrice": 25,
         "UnitsInStock": 120,
-        "image": "../assets/images/boysenberryspread.png"
+        "image": "../assets/images/boysenberryspread.png",
+        "DeliveryOn": "1996-10-18T21:00:00.000Z"
     },
     {
         "ProductID": 7,
         "ProductName": "Uncle Bob's Organic Dried Pears",
         "UnitPrice": 30,
         "UnitsInStock": 0,
-        "image": "../assets/images/driedpears.png"
+        "image": "../assets/images/driedpears.png",
+        "DeliveryOn": "1996-08-21T21:00:00.000Z"
     },
     {
         "ProductID": 8,
         "ProductName": "Northwoods Cranberry Sauce",
         "UnitPrice": 40,
         "UnitsInStock": 0,
-        "image": "../assets/images/cranberrysauce.png"
+        "image": "../assets/images/cranberrysauce.png",
+        "DeliveryOn": "1996-11-30T22:00:00.000Z"
     },
     {
         "ProductID": 9,
         "ProductName": "Mishi Kobe Niku",
         "UnitPrice": 97,
         "UnitsInStock": 29,
-        "image": "../assets/images/kobeniku.png"
+        "image": "../assets/images/kobeniku.png",
+        "DeliveryOn": "1996-02-20T22:00:00.000Z"
     },
     {
         "ProductID": 10,
         "ProductName": "Ikura",
         "UnitPrice": 31,
         "UnitsInStock": 31,
-        "image": "../assets/images/ikura.png"
+        "image": "../assets/images/ikura.png",
+        "DeliveryOn": "1996-09-04T21:00:00.000Z"
     }
 ]
 

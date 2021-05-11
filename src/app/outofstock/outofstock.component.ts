@@ -1,17 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductServiceService} from '../product-service.service';
-
-export class Product {
-  constructor(
-    public ProductID: number,
-    public ProductName: string,
-    public UnitPrice: number,
-    public UnitsInStock: number,
-    public image: string
-  ) {
-
-  }
-} 
+import {IProduct} from '../Product';
 
 
 @Component({
@@ -21,10 +10,10 @@ export class Product {
 })
 export class OutofstockComponent implements OnInit {
 
-  outOfStockProducts: Product[];
+  outOfStockProducts: IProduct[];
   constructor(private products: ProductServiceService) { 
     this.outOfStockProducts = [];
-    this.products.getData().subscribe((allProducts: Product[]) => {
+    this.products.getData().subscribe((allProducts: IProduct[]) => {
       let outOfStock = allProducts.filter(product => product.UnitsInStock === 0);
       this.outOfStockProducts = outOfStock;
     });

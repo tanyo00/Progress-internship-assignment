@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductServiceService} from '../product-service.service';
-import {Product} from '../outofstock/outofstock.component';
+import {IProduct} from "../Product";
 
 
 
@@ -11,12 +11,13 @@ import {Product} from '../outofstock/outofstock.component';
   templateUrl: './instock.component.html',
   styleUrls: ['./instock.component.css']
 })
-export class InstockComponent implements OnInit {
 
-  inStockProducts: Product[];
+
+export class InstockComponent implements OnInit {
+  inStockProducts: IProduct[];
   constructor(private products: ProductServiceService) { 
     this.inStockProducts = [];
-    this.products.getData().subscribe((allProducts: Product[]) => {
+    this.products.getData().subscribe((allProducts: IProduct[]) => {
       let inStock = allProducts.filter(product => product.UnitsInStock > 0);
       this.inStockProducts = inStock;
     });

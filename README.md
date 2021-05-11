@@ -1,7 +1,7 @@
 # Technologies used
 
 - Angular
-- Angular-router
+- TypeScript
 - CSS
 - HTML
 - JavaScript
